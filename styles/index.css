@@ -19,18 +19,19 @@ h1 {
 }
 
 img {
-  width: 10svw;
+  width: 100px;
 }
 
 /*Form section*/
 .container {
-  max-width: 50svw;
-  max-height: 50svw;
+  max-width: 600px;
+  width: 100%;
+  min-height: 200px;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 40px;
   border-radius: 5px;
   background-color: #f2f2f2;
-  padding: 20px;
+  padding: 10px;
   float: center;
   background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
 }
@@ -46,10 +47,6 @@ input[type=text], input[type=email], textarea {
 
 ::placeholder {
   color:#655be1
-}
-
-.force-opaque::placeholder {
-  opacity: 1;
 }
 
 label {
